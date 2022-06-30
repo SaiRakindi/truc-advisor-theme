@@ -1,0 +1,29 @@
+.colors-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.light-theme-container {
+    width: 33.33%;
+    height: 100%;
+    /* margin: '0 15px'; */
+    background-color: #ffffff;
+}
+
+.dark-theme-container {
+    width: 33.33%;
+    /* margin: '0 15px'; */
+    height: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.contrast-theme-container {
+    width: 33.33%;
+    height: 100%;
+    /* margin: 0 15px; */
+    background-color: #004671;
+    color: rgba(255, 255, 255, 0.7);
+}
